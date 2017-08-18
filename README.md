@@ -4,8 +4,6 @@ Descriptions and examples of common design patterns in Javascript.
 ---
 ## Some useful terminology and concepts
 
-### Higher order functions
-
 ### First class citizens
 Programming languages denote first class citizens as things (i.e. objects) that:
 * can be stored as variables / data structures
@@ -13,6 +11,14 @@ Programming languages denote first class citizens as things (i.e. objects) that:
 * can be returned from functions
 
 The general gist of it is "they can do what everything else can do, they are not restricted". In Javascript functions are first class citizens which is great because it opens the door to all kinds of techniques.
+
+### Higher order functions
+Higher order functions are simply functions that:
+* can take a function as an argument
+and/or
+* can return a function
+
+This is great as, just like functions as first class citizens, it makes the language flexible and caters for all kinds of useful techniques.
 
 ### Lambda
 **TL;DR**
