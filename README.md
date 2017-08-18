@@ -15,6 +15,9 @@ Programming languages denote first class citizens as things (i.e. objects) that:
 The general gist of it is "they can do what everything else can do, they are not restricted". In Javascript functions are first class citizens which is great because it opens the door to all kinds of techniques.
 
 ### Lambda
+**TL;DR**
+*A Lambda is a function expression, that is stored as data, so it can be passed around to other things.*
+
 A Lambda is essentially an anonymous function but there is a difference. A Lambda function is:
 
 **Passed in to a function as an argument**
@@ -57,4 +60,3 @@ element.addEventListener('click', function myClickEventLambda() {
     console.log('myClickEventLambda was called when the element was clicked!');
 });
 ```
-*The point is that a Lambda is a function expression, that is stored as data, so it can be passed around to other things.*
