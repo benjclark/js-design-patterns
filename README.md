@@ -7,6 +7,7 @@ Descriptions and examples of common design patterns in Javascript.
 ## Some useful terminology and concepts
 ### Lambda
 A Lambda is essentially an anonymous function but there is a difference. A Lambda function is:
+
 **Passed in to a function as an argument**
 ```javascript
 function exampleFunction(lambdaFunction) {
